@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Cpu, Monitor, HardDrive, Zap, MemoryStick, Motherboard } from 'lucide-react';
+import { Cpu, Monitor, HardDrive, Zap, MemoryStick, Clapperboard as Motherboard } from 'lucide-react';
 
 const iconMap = {
   cpu: Cpu,
