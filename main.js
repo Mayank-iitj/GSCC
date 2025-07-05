@@ -1,10 +1,7 @@
-import './style.css'
+import { createRoot } from 'react-dom/client';
+import App from './src/App.js';
+import './style.css';
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <h1>Hello Vite!</h1>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<App />);
